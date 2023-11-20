@@ -1,0 +1,24 @@
+
+name: OMICRON
+channels:
+  - pytorch
+  - conda-forge
+  - nvidia
+dependencies:
+  - black
+  - jupyter
+  - matplotlib
+  - numpy
+  - python>=3.9
+  - pandas
+  - pip
+  - pytorch
+  - pytorch-cuda=11.8
+  - termcolor
+  - torchvision
+  - tqdm
+  - tensorboard
+  - pip:
+    - pyraws
+    - ipywidgets
+    - ipympl
