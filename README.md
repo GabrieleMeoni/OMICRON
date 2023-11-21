@@ -1,5 +1,5 @@
-# Onboard Microsat Data Filtering (OMICRON)
-Onboard Microsat Data Filtering (OMICRON) aims at performing data-filtering on board a microsatellite .
+#  Microsat Data Filtering (OMICRON)
+ Microsat Data Filtering (OMICRON) aims at performing data-filtering on board a microsatellite .
 
 # Summary
 
@@ -32,7 +32,7 @@ Onboard Microsat Data Filtering (OMICRON) aims at performing data-filtering on b
 </details>
 
 # About the project
-Onboard Microsat Data Filtering (OMICRON) is a project assignment for the course [MicroSat Engineering (AE4S10)](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=65838) of [Aerospace Engineering at TU Delft](https://www.tudelft.nl/lr) to perform data-filtering on board a microsatellite by using Machine Learning.
+ Microsat Data Filtering (OMICRON) is a project assignment for the course [MicroSat Engineering (AE4S10)](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=65838) of [Aerospace Engineering at TU Delft](https://www.tudelft.nl/lr) to perform data-filtering on board a microsatellite by using Machine Learning.
 The idea is similar to what has been proposed in the scope of the Φ-[Sat-1](https://ieeexplore.ieee.org/document/9600851) mission, which proposed to use machine learning models to detect cloud-covered images (`Cloud`), so they can be discarded to priviledge cloud-free images.
 However, `Cloud` are not the only source of low-information-content. Indeed, microsatellites attitude determination and control systems might experience a failure, which leads the satellite to thumble and produce off-nadir images containg edges of Earth (`Edge`). Therefore, since the information content is rather small, those images can be also discarded to proviledge high-information content images (`Good`). <br>
 
@@ -87,20 +87,20 @@ The content of repository is as follows:
     * `Label_image_GUI.ipynb`: notebook that offers a GUI to manually label your data. Instructions on how to use the GUI are included in the notebook.
     * `Train.ipy`: notebook that includes the skeleton for your solution. You are supposed to expand this notebook with your code. Currently, the notebook includes `Dataset` utilities to load and process your dataset, after you have performed manual labeling.
 **N.B**: We recommend using [Jupyter](https://jupyter.org/) to access the notebook
-* `resources`: it includes resources (e.g., images) useful for this [README](https://github.com/GabrieleMeoni/OnboardEarthEdgeDetector/blob/main/README.md).
+* `resources`: it includes resources (e.g., images) useful for this [README](https://github.com/GabrieleMeoni/OMICRON/blob/main/README.md).
 * `utils`: it includes different utils functions that are used by the notebooks. In particular:
     * `data_utils.py`: it contains the `Dataset` class and functions to parse the data. **N.B**: you might not edit this file without a proper reason.
     * `plot_utils.py`: it contains some utils to plot, post-process, and visualize data. You might add additional functions, if needed, for instance to match the output of the model classification to your input images.
 * `.gitignore`: it suggests what kind of files should be excluded from the repository.
 * `environment.yml`: this is the [environment.yml](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment) file used to create your [conda](https://docs.conda.io/projects/miniconda/en/latest/) environment. Please, refer to [installation](#installation) for more details on how to use it to create your environment.
 * `LICENSE`: license file. For more details, please refer to [LICENSE](#license).
-* `README.md`: this [README.md](https://github.com/GabrieleMeoni/OnboardEarthEdgeDetector/blob/main/README.md) file.
+* `README.md`: this [README.md](https://github.com/GabrieleMeoni/OMICRON/blob/main/README.md) file.
 
 # Installation
 
 ## Clone the repository via Git
 
-First you need to clone this [repository](https://github.com/GabrieleMeoni/OnboardEarthEdgeDetector.git) so you can download its content to your PC.
+First you need to clone this [repository](https://github.com/GabrieleMeoni/EarthEdgeDetector.git) so you can download its content to your PC.
 
 * First you need to install [Git](https://git-scm.com/downloads) to be able to clone the repository.
 
@@ -108,7 +108,7 @@ First you need to clone this [repository](https://github.com/GabrieleMeoni/Onboa
 
 * Run the following command to clone the repository by using Git.
 
-```git clone https://github.com/GabrieleMeoni/OnboardEarthEdgeDetector.git```
+```git clone https://github.com/GabrieleMeoni/EarthEdgeDetector.git```
 
 
 ## Software installation
@@ -157,7 +157,7 @@ The OMICRON dataset has been realized by images by the [OPS-SAT](https://www.esa
 OPS-SAT images are RGB images with 2048x1942 resolution. Images were split into two halves horizontally to ensure to augment the dataset.
 
 # Contributing
-The OMICRON project is open to contributions. To discuss new ideas and applications, please, reach us via email (please, refer to Contacts). To report a bug or request a new feature, please, open an [issue](https://github.com/GabrieleMeoni/OnboardEarthEdgeDetector/issues) to report a bug or to request a new feature.
+The OMICRON project is open to contributions. To discuss new ideas and applications, please, reach us via email (please, refer to Contacts). To report a bug or request a new feature, please, open an [issue](https://github.com/GabrieleMeoni/EarthEdgeDetector/issues) to report a bug or to request a new feature.
 
 If you want to contribute, please proceed as follow:
 
@@ -170,7 +170,7 @@ If you want to contribute, please proceed as follow:
 # License
 Distributed under GPL 3.0 License.
 
-Technische Universiteit Delft hereby disclaims all copyright interest in Onboard Microsat Data Filtering (OMICRON) written by the Author(s).
+Technische Universiteit Delft hereby disclaims all copyright interest in  Microsat Data Filtering (OMICRON) written by the Author(s).
 
 Henri Werij, Faculty of Aerospace Engineering, Technische Universiteit Delft.
 
