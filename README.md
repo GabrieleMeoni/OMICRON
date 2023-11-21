@@ -60,7 +60,7 @@ As you can see, the images suffer from atmospheric-distortion, which distorces t
 
 ## Performance requirements
 
-1. The accuracy of the OMICRON classifier shall be higher than 85 \%.
+1. The accuracy of the OMICRON classifier shall be higher than 80 \%.
 
 ## Deliverables
 1. **Labeled dayaset**.
