@@ -24,7 +24,6 @@ Onboard Microsat Data Filtering (OMICRON) aims at performing data-filtering on b
       <li><a href="#organize-your-project-data">Organize your project data</a></li>
     </ul>
     <li><a href="#data-availability">Data availability</a></li>
-    <li><a href="#glossary">Glossary</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#acknoledgments">Acknoledgments</a></li>
@@ -170,6 +169,12 @@ If you want to contribute, please proceed as follow:
 
 # License
 Distributed under GPL 3.0 License.
+
+Technische Universiteit Delft hereby disclaims all copyright interest in Onboard Microsat Data Filtering (OMICRON) written by the Author(s).
+
+Henri Werij, Faculty of Aerospace Engineering, Technische Universiteit Delft.
+
+© [2023], [Meoni Gabriele]
 
 # Acknoledgments
 We would like to thank Dario Izzo (Advanced Concepts Team, European Space Agency) and David Evans (OPS-SAT, European Space Agency) for providing the data for this assignment.
