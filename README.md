@@ -24,7 +24,7 @@
       <li><a href="#organize-your-project-data">Organize your project data</a></li>
     </ul>
     <li><a href="#data-availability">Data availability</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#submission">Submission</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#acknoledgments">Acknoledgments</a></li>
     <li><a href="#contacts">Contacts</a></li>
@@ -59,25 +59,42 @@ As you can see, the images suffer from atmospheric-distortion, which distorces t
 
 ## Performance requirements
 
-1. The accuracy of the OMICRON classifier shall be higher than 80 \%.
+Performance requirements are **group** dependent. Since there are more group of students working on this project, every group has different performance requirements addressing different metrics.
 
 ## Deliverables
-1. **Labeled dayaset**.
-2. **Code**. It shall cointain:
-   1. Neural Network training pipeline.
-   2. Verification of the trained machine learning positive.
-   3. Plots of the train and cross-validation split losses.
-   4. Plots of the network accuracy on the test split [Recall and Precision](https://en.wikipedia.org/wiki/Precision_and_recall). Here we define a `Good` image as a **Positive**. All the other classes are **Negative**.
-  We provide a skeleton for your code [Train.py](https://github.com/GabrieleMeoni/OMICRON/blob/main/notebooks/Train.ipynb). Please, refer to [Content of repository](#content-of-repository).
+
+1. **Code package**. It shall cointain:
+   * **labeled dataset**.
+   * **Python code** including:
+    1. Neural Network training pipeline.
+    2. Verification of the trained machine learning positive.
+    3. Plots of the train and cross-validation split losses.
+    We provide a skeleton for your code [Train.py](https://github.com/GabrieleMeoni/OMICRON/blob/main/notebooks/Train.ipynb). Please, refer to [Content of repository](#content-of-repository).
+  * **Group-specific** hardware/software item.  
 
 3. **Final presentation**:
+The presentation shall address:
+  1. **default topics**: The list of default topics is shown below. This topics are common among the various groups and shall be addressed in the presentation by all the students.
+  2. **group-specific topics**: every group of students has different performance requirements and requests in terms of deliverables.
+  3. **Indivual assigment topics**: every student will be assigned with an individual assignment to be discussed in the final presentation.
+
+
+**List of default topics**
    1. Discussing dataset labeling strategy.
-   2. Model architecture.
-   3. Training strategy and procedure.
-   4. Results in terms of accuracy, Recall and Precision.
-   5. Plots of the train and cross-validation split losses.
-   6. Discussion about the impact of Recall and Precision metrics in the future micro-satellite mission.
-   7. Possible strategies to improve your model.
+   2. Discussing the relevant state of the art.
+   3. Model architecture.
+   4. Training strategy and procedure.
+   6. Plots of the train and cross-validation split losses.
+
+
+The default list of topics shall be discussed by the team. You are free to distribute the topics as you want.
+
+  
+3. **Personal contribution**:
+The personal contribution will be evaluated during the presentation in two ways:
+   1. Balance on the distribution on the default list of topics. 
+   2. Capability to answer specific questions on the default topics.
+   3. Completeness, correctness, capability to answer questions related to the individual assignment. 
 
 
 # Content of repository
@@ -156,15 +173,13 @@ Request access to the project data by sending an email (refer to [Contacts](#con
 The OMICRON dataset has been realized by images by the [OPS-SAT](https://www.esa.int/Enabling_Support/Operations/OPS-SAT) satellite. In particular, the dataset was made of raw unprocessed images from the [The OPS-SAT Case](https://kelvins.esa.int/opssat/challenge/) Kelvins competition with additional `Edge` images. Moreover, we retrieved additional images from the [OPS-SAT Flicker](https://www.flickr.com/photos/esa_events/albums/72157716491073681/), which were reprocessed to have the same blue appearance by applying [histogram matching](https://scikit-image.org/docs/stable/auto_examples/color_exposure/plot_histogram_matching.html). <br>
 OPS-SAT images are RGB images with 2048x1942 resolution. Images were split into two halves horizontally to ensure to augment the dataset.
 
-# Contributing
-The OMICRON project is open to contributions. To discuss new ideas and applications, please, reach us via email (please, refer to Contacts). To report a bug or request a new feature, please, open an [issue](https://github.com/GabrieleMeoni/EarthEdgeDetector/issues) to report a bug or to request a new feature.
-
-If you want to contribute, please proceed as follow:
+# Submission
+You can submit your **code package** (with except for hardware items) as follows: 
 
 * Fork the Project
-* Create your Feature Branch (git checkout -b feature/NewFeature)
-* Commit your Changes (git commit -m 'Create NewFeature')
-* Push to the Branch (git push origin feature/NewFeature)
+* Create a new Branch with your group name (git checkout -b "group_II_1_X"))
+* Commit your Changes (git commit -m 'Group II.1.X - Final sumbission')
+* Push to the Branch (git push origin group_II_1_X)
 * Open a Pull Request
 
 # License
@@ -180,5 +195,5 @@ Henri Werij, Faculty of Aerospace Engineering, Technische Universiteit Delft.
 We would like to thank Dario Izzo (Advanced Concepts Team, European Space Agency) and David Evans (OPS-SAT, European Space Agency) for providing the data for this assignment.
 
 # Contacts
-
-Created by [Gabriele Meoni](https://www.tudelft.nl/staff/g.meoni/) - G.Meoni@tudelft.nl, Assistant Professor in Space Systems Engineering, Aerospace Engineering, TU Delft.
+To report a bug, please, open an [issue](https://github.com/GabrieleMeoni/EarthEdgeDetector/issues).
+For any question, please, contact the creator [Gabriele Meoni](https://www.tudelft.nl/staff/g.meoni/) - G.Meoni@tudelft.nl, Assistant Professor in Space Systems Engineering, Aerospace Engineering, TU Delft.
