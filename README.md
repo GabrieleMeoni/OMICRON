@@ -171,7 +171,7 @@ To get access to the project data, please refer to [Data availability](#data-ava
 # Data availability
 Request access to the project data by sending an email (refer to [Contacts](#contacts)). Specify `OMICRON - Request access to data` in your mail object. <br>
 The OMICRON dataset has been realized by images by the [OPS-SAT](https://www.esa.int/Enabling_Support/Operations/OPS-SAT) satellite. In particular, the dataset was made of raw unprocessed images from the [The OPS-SAT Case](https://kelvins.esa.int/opssat/challenge/) Kelvins competition with additional `Edge` images. Moreover, we retrieved additional images from the [OPS-SAT Flicker](https://www.flickr.com/photos/esa_events/albums/72157716491073681/), which were reprocessed to have the same blue appearance by applying [histogram matching](https://scikit-image.org/docs/stable/auto_examples/color_exposure/plot_histogram_matching.html). <br>
-OPS-SAT images are RGB images with 2048x1942 resolution. Images were split into two halves horizontally to ensure to augment the dataset.
+OPS-SAT images are RGB images with 2048x1942 resolution. Images were split into two halves horizontally to augment the dataset.
 
 # Submission
 You can submit your **code package** (with except for hardware items) as follows: 
