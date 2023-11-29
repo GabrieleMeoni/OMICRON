@@ -81,10 +81,9 @@ The presentation shall address:
 
 **List of default topics**
    1. Discussing dataset labeling strategy.
-   2. Discussing the relevant state of the art.
-   3. Model architecture.
-   4. Training strategy and procedure.
-   6. Plots of the train and cross-validation split losses.
+   2. Model architecture.
+   3. Training strategy and procedure.
+   4. Plots of the train and cross-validation split losses.
 
 
 The default list of topics shall be discussed by the team. You are free to distribute the topics as you want.
