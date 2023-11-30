@@ -116,7 +116,7 @@ The content of repository is as follows:
 
 ## Clone the repository via Git
 
-First you need to clone this [repository](https://github.com/GabrieleMeoni/EarthEdgeDetector.git) so you can download its content to your PC.
+First you need to clone this [repository](https://github.com/GabrieleMeoni/OMICRON.git) so you can download its content to your PC.
 
 * First you need to install [Git](https://git-scm.com/downloads) to be able to clone the repository.
 
@@ -124,7 +124,7 @@ First you need to clone this [repository](https://github.com/GabrieleMeoni/Earth
 
 * Run the following command to clone the repository by using Git.
 
-```git clone https://github.com/GabrieleMeoni/EarthEdgeDetector.git```
+```git clone https://github.com/GabrieleMeoni/OMICRON.git```
 
 
 ## Software installation
@@ -194,5 +194,5 @@ Henri Werij, Faculty of Aerospace Engineering, Technische Universiteit Delft.
 We would like to thank Dario Izzo (Advanced Concepts Team, European Space Agency) and David Evans (OPS-SAT, European Space Agency) for providing the data for this assignment.
 
 # Contacts
-To report a bug, please, open an [issue](https://github.com/GabrieleMeoni/EarthEdgeDetector/issues).
+To report a bug, please, open an [issue](https://github.com/GabrieleMeoni/OMICRON/issues).
 For any question, please, contact the creator [Gabriele Meoni](https://www.tudelft.nl/staff/g.meoni/) - G.Meoni@tudelft.nl, Assistant Professor in Space Systems Engineering, Aerospace Engineering, TU Delft.
