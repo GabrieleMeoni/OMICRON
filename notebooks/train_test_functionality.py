@@ -89,6 +89,7 @@ def train(model, optimizer, loss_fn, train_loader, val_loader, epochs=100, devic
             ax.plot(epoch_arr[:epoch], acc, 'b',linewidth=1)
 
             # refresh figure
+            ax.legend(['(red)Training Loss', '(green)Validation Loss', '(blue)Accuracy'])
             fig.canvas.draw()
             fig.canvas.flush_events()
 
