@@ -12,6 +12,8 @@ from PIL import Image, ImageFile
 import torch.optim as optim
 
 # import functions from train_test_functionality.py
+#from model import OMICRONClassifier
+from model import CompositeModel
 from train_test_functionality import train
 from train_test_functionality import test
 
@@ -72,6 +74,10 @@ def main():
 
     ### loading model 
     model = torch.hub.load('pytorch/vision:v0.10.0', 'resnet18')
+    # model = OMICRONClassifier()
+
+
+
     optimizer = torch.optim.SGD(model.parameters(), lr=learnnig_rate, momentum=mommentum_value)
 
     # move model to GPU if available

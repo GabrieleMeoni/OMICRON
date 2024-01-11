@@ -3,6 +3,7 @@ from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
 from torch.utils.data import random_split
 import numpy as np
+import os # modified
 
 batch_size=16
 
@@ -15,6 +16,9 @@ test_size = 0.15
 
 dataset_mean = [0.2391, 0.4028, 0.4096]
 dataset_std = [0.2312, 0.3223, 0.3203]
+
+path_data=os.path.join("..", "data") # modified
+
 
 transform = transforms.Compose([transforms.ToTensor(),
                                 transforms.Normalize((dataset_mean),(dataset_std)),
@@ -31,6 +35,9 @@ train_ds, val_ds, test_ds = random_split(dataset, [n_train, n_val, n_test])
 
 # Train loader
 train_loader = DataLoader(train_ds, batch_size=batch_size, pin_memory=False, shuffle=True)
+# train_features, train_labels = next(iter(train_loader)) # modified
+# print(train_labels) # modified
+
 # Cross validation data loader
 valid_loader = DataLoader(val_ds, batch_size=batch_size, pin_memory=False, shuffle=True)
 # Test data loader
