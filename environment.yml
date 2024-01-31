@@ -1,5 +1,5 @@
 
-name: OMICRON
+name: OMICRON2
 channels:
   - pytorch
   - conda-forge
@@ -9,7 +9,7 @@ dependencies:
   - jupyter
   - matplotlib
   - numpy
-  - python>=3.9
+  - python=3.10
   - pandas
   - pip
   - pytorch
