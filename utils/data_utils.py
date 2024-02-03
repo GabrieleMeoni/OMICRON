@@ -43,7 +43,7 @@ class SplitDataset(torch.utils.data.Dataset):
 class Dataset():
     """Creates Dataset which reads images from target directories.
     """
-    def __init__(self, path_data="../data/", edge_px_to_discard=[10, 10], target_size=[256, 256], train_percentage=0.7, valid_percentage=0.15, seed=42, device=torch.device("cpu")):
+    def __init__(self, path_data="../data/", edge_px_to_discard=[10, 10], target_size=[256, 128], train_percentage=0.7, valid_percentage=0.15, seed=42, device=torch.device("cpu")):
         """Initialization.
 
         Args:
